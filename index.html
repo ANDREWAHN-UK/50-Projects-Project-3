@@ -1,24 +1,63 @@
 <<!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Project Starter</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="assets/style.css">
+        <title>Rotating Navigation </title>
+    </head>
 
-<body>
-    <h1>Project starter</h1>
-    <p>This is the basic start code (boilerplate) for the <a
-            href="https://www.udemy.com/course/50-projects-50-days/learn/lecture/23595148#overview">50 Projects in
-            50 days course</a>  from <a href="https://www.udemy.com/">Udemy.</a>  </p>
+    <body>
+        <div class="container">
+            <div class="circle-container">
+                <div class="circle">
+                    <button id="close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <button id="open">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
 
-            <script src="assets/script.js"></script>
-</body>
+            <div class="content">
+                <h1>Woohoo</h1>
+                <small>Andrew Ahn</small>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste excepturi aliquid qui ipsa
+                    necessitatibus quaerat est numquam sunt id, tempore sed nobis dolor nemo ab illum aperiam aliquam
+                    fugiat quam saepe et minima. Illum sed at voluptatem autem quia, aliquid mollitia tempora ipsam quas
+                    voluptas libero sunt consequatur, id sit velit minus nemo molestiae iusto accusamus voluptatum nisi.
+                    Reiciendis, eos ducimus fuga iusto quos optio consequuntur a rerum earum perspiciatis magnam nihil
+                    nam quaerat maiores molestias ipsam provident ab quasi recusandae laudantium ut quis? Suscipit illum
+                    excepturi fuga, veritatis explicabo quas recusandae obcaecati consequuntur, ab velit hic. Quaerat,
+                    in quidem!</p>
+                <h3>
+                    My dog
+                    <img src="assets/media/1511194376-cavachon-puppy-christmas.jpg" alt="cute puppy photo">
+                </h3>
+            </div>
+        </div>
 
-</html>
+        <nav>
+            <ul>
+                <li>
+                    <i class="fas fa-home"></i>Home
+                </li>
+                <li>
+                    <i class="fas fa-user-alt"></i>About
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i> Contact
+                </li>
+            </ul>
+        </nav>
+
+        <script src="assets/script.js"></script>
+    </body>
+
+    </html>
